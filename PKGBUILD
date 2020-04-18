@@ -11,8 +11,8 @@ url='https://code-industry.net/free-pdf-editor/'
 arch=('x86_64')
 license=('custom')
 makedepends=('patchelf')
-source_x86_64=("https://code-industry.net/public/master-pdf-editor-${pkgver}-qt5.amd64.tar.gz")
-sha1sums_x86_64=('fd3e19479a298bfe6770b5dddd67b009742e9321')
+source_x86_64=("https://code-industry.net/public/master-pdf-editor-${pkgver}-qt5-all.amd64.tar.gz")
+sha1sums_x86_64=('bff9d66b531e60603a9221cf6bd2595c6bf602d6')
 
 package() {
   depends=('gcc-libs' 'glibc' 'libgl' 'nspr' 'nss' 'qt5-base' 'qt5-svg' 'sane')
